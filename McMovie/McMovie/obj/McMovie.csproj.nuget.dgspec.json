@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andres Rueda\\source\\repos\\McMovie\\McMovie\\McMovie.csproj": {}
+    "C:\\Users\\Andres Rueda\\Documents\\Repositorio\\Electiva\\McMovie\\McMovie\\McMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andres Rueda\\source\\repos\\McMovie\\McMovie\\McMovie.csproj": {
+    "C:\\Users\\Andres Rueda\\Documents\\Repositorio\\Electiva\\McMovie\\McMovie\\McMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andres Rueda\\source\\repos\\McMovie\\McMovie\\McMovie.csproj",
+        "projectUniqueName": "C:\\Users\\Andres Rueda\\Documents\\Repositorio\\Electiva\\McMovie\\McMovie\\McMovie.csproj",
         "projectName": "McMovie",
-        "projectPath": "C:\\Users\\Andres Rueda\\source\\repos\\McMovie\\McMovie\\McMovie.csproj",
+        "projectPath": "C:\\Users\\Andres Rueda\\Documents\\Repositorio\\Electiva\\McMovie\\McMovie\\McMovie.csproj",
         "packagesPath": "C:\\Users\\Andres Rueda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andres Rueda\\source\\repos\\McMovie\\McMovie\\obj\\",
+        "outputPath": "C:\\Users\\Andres Rueda\\Documents\\Repositorio\\Electiva\\McMovie\\McMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andres Rueda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
